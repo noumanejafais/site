@@ -2,15 +2,6 @@
   #style.css
 \*-----------------------------------*/
 
-
-/**
- * copyright 2022 @codewithsadee
- */
-
-
-
-
-
 /*-----------------------------------*\
   #CUSTOM PROPERTY
 \*-----------------------------------*/
@@ -209,7 +200,9 @@ article {
 
 .icon-box ion-icon { --ionicon-stroke-width: 35px; }
 
-article { display: none; }
+article { 
+  display: none; 
+}
 
 article.active {
   display: block;
@@ -549,9 +542,30 @@ a:active {
   line-height: 1.6;
 }
 
-.about-text p { margin-bottom: 15px; }
+.about-text p { margin-bottom: 15px; text-align: justify;}
 
-
+.home__img {
+  width: 350px;
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+}
+.home__description {
+margin-bottom: var(--mb-2);
+}
+.grid_test {
+  display: grid;
+  gap: 1.5rem;
+}
+/*
+p {
+display: block;
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+}
+*/
 
 /**
  * #service 

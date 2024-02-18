@@ -47,7 +47,9 @@
       -->
 
         <div class="info-content">
-          <a href="index.html"><h1 class="name" title="Noumane JAFAIS"  >Noumane JAFAIS</h1></a>
+          <a href="index.html">
+            <h1 class="name" title="Noumane JAFAIS">Noumane JAFAIS</h1>
+          </a>
 
           <p class="title">Étudiant BUT GEII</p>
         </div>
@@ -106,9 +108,8 @@
               <time datetime="1982-06-23">June 23, 1982</time>
             </div>
 
-          </li>
--->
-          
+          </li>-->
+
           <li class="contact-item">
 
             <div class="icon-box">
@@ -175,30 +176,18 @@
       -->
 
       <nav class="navbar">
-
         <ul class="navbar-list">
-
           <li class="navbar-item">
             <button class="navbar-link  active" data-nav-link>Accueil</button>
           </li>
-
-
-
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>CV</button>
           </li>
-
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Mes Projets</button>
           </li>
-
-
         </ul>
-
       </nav>
-
-
-
 
 
       <!--
@@ -206,32 +195,41 @@
       -->
 
       <article class="accueil  active" data-page="accueil">
-
         <header>
           <h2 class="h2 article-title">Bienvenue sur mon Portfolio</h2>
         </header>
 
         <section class="about-text">
-          <p>
-            I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media.
-            I enjoy
-            turning complex problems into simple, beautiful and intuitive designs.
-          </p>
+          <div class="div home__container container grid">
+            <!--<img src="/img/gif.gif" alt="" class="home__img">-->
+            <p class="home__description">
+              <!--Je suis étudiant en <b>Bachlor Universitaire et Technologique</b> (BUT) en Génie 
+              Electrique et Informatique Industrielle spécialisé <b>Systèmes Embarqués</b> à 
+              l'Université Sorbonne Paris Nord. Je suis passionné par les nouvelles technologies et 
+              l'électronique embarquée. Je recherche un stage afin d'acquérir de nouvelles expériences 
+              professionnelles et d'évoluer dans ces domaines.
+              -->
 
-          <p>
-            My job is to build your website so that it is functional and user-friendly but at the same time attractive.
-            Moreover, I
-            add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring
-            across your
-            message and identity in the most creative way. I created web design for many famous brand companies.
-          </p>
+              Je suis étudiant de l'Université Sorbonne Paris Nord à Villetaneuse en <b>Génie Electrique
+              et Informatique Industriel</b> (BUT GEII) spécialisé dans l'Electronique et <b>Systèmes
+              Embarqués</b> (ESE). <!--Ce portfolio a pour objectif de vous partager ma passion pour la technique-->
+              Je suis passionné par les nouvelles technologies et 
+              l'électronique embarquée. Je recherche un stage afin d'acquérir de nouvelles expériences 
+              professionnelles et d'évoluer dans ces domaines.
+              Ce portfolio est alimenté par les projets que j'ai pu réaliser.
+            </p>
+            <img src="/img/gif.gif" alt="" class="home__img">
+          </div>
         </section>
 
 
         <!--
           - service
-        -->
-
+        --><br><br>
+        <div class="div_pdf">
+          <button class="pdf" data-nav-link>Mes Projets</button>
+      </div>
+      <!--
         <section class="service">
 
           <h3 class="h3 service-title">What i'm doing</h3>
@@ -305,9 +303,9 @@
           </ul>
 
 
-        </section>
+        </section>-->
 
-        
+
 
 
 
@@ -316,43 +314,11 @@
           <div class="overlay" data-overlay></div>
 
           <section class="testimonials-modal">
-
             <button class="modal-close-btn" data-modal-close-btn>
               <ion-icon name="close-outline"></ion-icon>
             </button>
-
-            <div class="modal-img-wrapper">
-              <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
-              </figure>
-
-              <img src="./assets/images/icon-quote.svg" alt="quote icon">
-            </div>
-
-            <div class="modal-content">
-
-              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
-
-              <time datetime="2021-06-14">14 June, 2021</time>
-
-              <div data-modal-text>
-                <p>
-                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                  lot of experience
-                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                  consectetur adipiscing
-                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                </p>
-              </div>
-
-            </div>
-
           </section>
-
         </div>
-
-
-
 
       </article>
 
@@ -389,14 +355,15 @@
               <span>Avril 2023 — Juin 2023</span>
 
               <p class="timeline-text">
-                - Réalisation d'un prototype de masque de photobiomodulation avec LED intégrées utilisant une carte de développement dotée d'un microcontrôleur
+                - Réalisation d'un prototype de masque de photobiomodulation avec LED intégrées utilisant une carte de
+                développement dotée d'un microcontrôleur
                 <br>- Programmation de la carte en langage C
                 <br>- Routage, montage et soudure de la carte électronique
                 <br>- Programmation d'un Interface Homme Machine
               </p>
 
             </li>
-            
+
 
           </ol>
 
@@ -473,7 +440,7 @@
                 <h5 class="h5">Autonomie</h5>
               </div>
             </li>
-            
+
             <li class="skills-item">
 
               <div class="title-wrapper">
@@ -500,12 +467,27 @@
               </p>
             </li>
 
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Logiciel</h5>
+
+              </div>
+              <p class="timeline-text">Word, Excel, PowerPoint<br>
+                MPLAB X, LabView, VS Code, Quartus, Eagle AutoDesk<br>
+                Premiere Pro, Photoshop
+              </p>
+              
+              
+            </li>
+
           </ul>
 
         </section>
         <div class="div_pdf">
-          <button class="pdf"><a href="CV_Noumane_JAFAIS.pdf" style="text-decoration:none">Télécharger le CV</a></button>
-      </div>
+          <button class="pdf"><a href="/pdf/CV_Noumane_JAFAIS.pdf" style="text-decoration:none">Télécharger le
+              CV</a></button>
+        </div>
 
       </article>
 
@@ -541,10 +523,9 @@
 
             <li class="filter-item">
               <button data-filter-btn>Web development</button>
-            </li>
--->
+            </li>-->
           </ul>
-        
+
 
           <div class="filter-select-box">
 
@@ -609,7 +590,7 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./img/velo.png" alt="orizon" loading="lazy" >
+                  <img src="./img/velo.png" alt="orizon" loading="lazy">
                 </figure>
 
                 <h3 class="project-title">Vélo électrique</h3>
@@ -654,7 +635,7 @@
 
               </a>
             </li>
-
+<!--
             <li class="project-item  active" data-filter-item data-category="web design">
               <a href="projet_se.html">
 
@@ -672,7 +653,7 @@
 
               </a>
             </li>
-
+          -->
             <li class="project-item  active" data-filter-item data-category="web design">
               <a href="projet_regulateur.html">
 
@@ -750,255 +731,9 @@
         </section>
 
       </article>
-
-
-
-
-
-      <!--
-        - #BLOG
-      -->
-
-      <article class="blog" data-page="blog">
-
-        <header>
-          <h2 class="h2 article-title">Blog</h2>
-        </header>
-
-        <section class="blog-posts">
-
-          <ul class="blog-posts-list">
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
-
-                  <p class="blog-text">
-                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
-
-                  <p class="blog-text">
-                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #80</h3>
-
-                  <p class="blog-text">
-                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
-
-                  <p class="blog-text">
-                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
-
-                  <p class="blog-text">
-                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #79</h3>
-
-                  <p class="blog-text">
-                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #CONTACT
-      -->
-
-      <article class="contact" data-page="contact">
-
-        <header>
-          <h2 class="h2 article-title">Contact</h2>
-        </header>
-
-        <section class="mapbox" data-mapbox>
-          <figure>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
-              width="400" height="300" loading="lazy"></iframe>
-          </figure>
-        </section>
-
-        <section class="contact-form">
-
-          <h3 class="h3 form-title">Contact Form</h3>
-
-          <form action="#" class="form" data-form>
-
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
-
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
-            </div>
-
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
-
-            <button class="form-btn" type="submit" disabled data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
-            </button>
-
-          </form>
-
-        </section>
-
-      </article>
-
     </div>
 
   </main>
-
-
-
-
-
-
   <!--
     - custom js link
   -->
